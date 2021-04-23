@@ -179,7 +179,7 @@ const email=document.getElementById('name').value;
     this.setState({
       isLoading:false,
     });
-    window.location.href='https://flamboyant-goodall-60390e.netlify.app/home';
+//     window.location.href='https://flamboyant-goodall-60390e.netlify.app/home';
     
  
 }).catch(err=>{
