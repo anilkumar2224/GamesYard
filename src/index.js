@@ -106,7 +106,7 @@ ReactDOM.render(
   <Switch> 
   <Route exact path='/' component={Auth} ></Route> 
   
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/home' component={App} ></ProtectedRoute>
+  <ProtectedRoute exact path='https://agile-dawn-02443.herokuapp.com/home' component={App} ></ProtectedRoute>
   <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/leaderboard' component={LB} ></ProtectedRoute>
   <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/profile' component={Profile} ></ProtectedRoute>
   <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/snake' component={Snake} ></ProtectedRoute>
