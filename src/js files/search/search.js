@@ -81,7 +81,7 @@ class Search extends React.Component {
     const data={
         str:string
     }
-   axios.post(process.env.REACT_APP_BACKEND_URL+'/getplayers',data,{
+   axios.post('https://agile-dawn-02443.herokuapp.com/getplayers',data,{
         headers:{
           Authorization:token?`Bearer ${token}`:""
         }
