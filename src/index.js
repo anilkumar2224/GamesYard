@@ -47,7 +47,7 @@ class App extends React.Component{
   async componentDidMount(){
    
   const token=localStorage.getItem('jwttoken');
- await axios.get(process.env.REACT_APP_BACKEND_URL+'/getprofile',{
+ await axios.get('https://agile-dawn-02443.herokuapp.com/getprofile',{
     headers:{
       Authorization:token?`Bearer ${token}`:""
 
