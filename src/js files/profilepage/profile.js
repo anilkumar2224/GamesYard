@@ -155,7 +155,7 @@ const ImgUpload =({
         }
     componentDidMount(){
       const token=localStorage.getItem('jwttoken');
-      axios.get(process.env.REACT_APP_BACKEND_URL+'/getprofile',{
+      axios.get('https://agile-dawn-02443.herokuapp.com/getprofile',{
         headers:{
           Authorization:token?`Bearer ${token}`:""
   
@@ -236,7 +236,7 @@ const ImgUpload =({
       }
       // //console.log(data);
     
-      axios.post(process.env.REACT_APP_BACKEND_URL+'/updateprofile',data,{
+      axios.post('https://agile-dawn-02443.herokuapp.com/updateprofile',data,{
         headers:{
           Authorization:token?`Bearer ${token}`:""
         }
