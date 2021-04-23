@@ -104,7 +104,7 @@ ReactDOM.render(
 
   <Router>
   <Switch> 
-  <Route exact path='https://flamboyant-goodall-60390e.netlify.app/' component={Auth} ></Route> 
+  <Route exact path='/' component={Auth} ></Route> 
   
   <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/home' component={App} ></ProtectedRoute>
   <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/leaderboard' component={LB} ></ProtectedRoute>
