@@ -1,0 +1,20 @@
+.iJdziA {
+    padding: 22px 40px 18px;
+    width: 30px;
+    position: fixed;
+    
+}
+.sc-gCwZxT{
+    margin:0px ;
+    position: absolute;
+}
+.gwxiBP {
+    cursor: pointer;
+   
+}
+@media (max-width: 767px){
+.iJdziA {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+}

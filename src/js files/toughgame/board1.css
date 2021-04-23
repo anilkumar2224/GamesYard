@@ -1,0 +1,88 @@
+.boardd{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #c28ff1;
+}
+.playboard {
+    /* outline: 2px solid rgb(134, 154, 189); */
+
+    position: relative;
+    margin:300px auto 1000px;
+    width: 800px;
+    height: 800px;
+
+ /* left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%); */
+}
+   
+    
+  .dot{
+ 
+    position: absolute;
+    width: 4%;
+   /* border-radius: 50%; */
+    height: 4%;
+    background: red;
+  /*  background: #ECE9E6;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);   Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to top, #FFFFFF, #ECE9E6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0); 
+  
+    
+    
+    
+
+    /* border: 1px solid rgb(134, 154, 189); */
+  }
+  
+  .fooddot{
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    background: rgb(0 78 252);  /* fallback for old browsers */
+    border-radius: 50%;
+
+    border: 1px solid rgb(134, 154, 189); 
+  }
+  .bloc{
+    position: absolute;
+    width: 4%;
+    height: 4%;
+background-color: brown;  
+    /* outline: 1px solid rgb(134, 154, 189); */
+    
+  }
+  
+  @media(max-width:650px){
+    .playboard {
+    width: 600px;
+    height: 600px;
+    margin-top: 300px;
+    }
+  
+  }
+  @media(max-width:460px){
+    .playboard {
+    width: 500px;
+    height: 500px;
+    margin-top: 300px;
+    }
+
+  }
+  @media(max-width:380px){
+    .playboard {
+    width: 420px;
+    height: 420px;
+    margin-top: 300px;
+    }
+
+  }
+  /* @media(max-height:650px){
+    .playboard {
+    width: 300px;
+    height: 300px;
+    }
+  } */

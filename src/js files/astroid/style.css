@@ -1,0 +1,119 @@
+/* .body {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Mono', serif;
+    color: #ffffff;
+  } */
+  .canvas {
+    display: block;
+    /* background-color: #000000; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .current-score {
+    left: 20px;
+  }
+  .your-top-score {
+    right: 20px;
+  }
+  .fire{
+    display: none;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: url('/src/css/bullet.png') center no-repeat;
+    background-size:110%;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 110px;
+    left: 70%;
+    transform: translate(-20%, 0);
+    z-index: 100;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.6;
+    outline: none;
+    border: none;
+  }
+  .fire:focus{
+    opacity: 0.8;
+  }
+
+ 
+.score {
+    display: block;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+    font-size: 20px;
+    color: #ffffff;
+  }
+ 
+  .controls {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  @media(max-width:550px)
+  {
+    .your-top-score {
+          left: 20px;
+          top:50px;
+        } 
+       
+  } 
+  .endgame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+  }
+  .button{
+    border: 4px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'PT Mono', serif;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: #ffffff;
+    color: #000000;
+  }
+  @media(max-width:450px){
+    .controls{
+      display: none;
+    }
+    .fire{
+      display: block;
+    }
+  }
+  @media(max-height:450px){
+    .fire{
+      bottom: 30px;
+      left: 70%;
+      transform: translate(-20%, 0);
+     
+    }
+    .controls{
+      display: none;
+    }
+  }

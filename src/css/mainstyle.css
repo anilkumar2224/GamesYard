@@ -1,0 +1,11 @@
+.main{
+    position: relative;
+    width: 100%;
+    order: 0; 
+     flex: 1 1 auto;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    background: url(./wave2.svg) center no-repeat;
+    background-size:cover;
+}

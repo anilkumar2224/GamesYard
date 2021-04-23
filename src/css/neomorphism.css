@@ -1,0 +1,485 @@
+
+.c-subscribe-box {
+  width: var(--block-width);
+  height: var(--block-height);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
+  border-radius: var(--border-radius-outer);
+  background:white;
+}
+.c-subscribe-box__wrapper {
+  width: calc(100% - var(--border-width));
+  height: calc(100% - var(--border-width));
+  position: absolute;
+z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:transparent;
+
+  /* padding: 1.2rem 1rem 1.8rem; */
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-inner);
+}
+
+
+.neodiv {
+    width:100%;
+    position: relative;
+    /* padding: 60px 35px 35px 35px; */
+    /* border-radius: 40px; */
+    /* background: #ecf0f3; */
+    /* background:#fff ; */
+    /* box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff; */
+ box-shadow: inset 0px -3px 0px #cbced1,
+              inset 0px 3px 0px  #cbced1;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-height: 50px;
+              /* background-color:  #2D3A51;     */
+            
+             
+              /* background: url(https://i.imgur.com/2vOXiPV.jpg?1); */
+  }
+  .sidenav{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: row; */
+    position: absolute;
+    /* background: url(https://i.imgur.com/2vOXiPV.jpg?1); */
+    /* background-color: rgb(45, 58, 81); */
+  }
+  #particles-js{
+    width:100%;
+    height:100%;
+  }
+
+  .neodiv ul{
+   padding: 0;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+margin: 0;
+
+  }
+ 
+  .neodiv ul li {
+list-style: none;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+  }
+  .content{
+  position: relative;
+  width: 1100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+  color: #fff;
+  }
+  .content h1{
+    font-size: 80px;
+    font-weight: 600;
+  }
+  .content h2{
+    font-size: 60px;
+    font-weight: 600;
+  }
+/* IPHONE */
+.iphone-x {
+  position: relative;
+  z-index: 1;
+  height: 594px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+margin-right: 20px;
+ 
+}
+.iphone-x *, .iphone-x *::before, .iphone-x *::after {
+  box-sizing: border-box;
+  display: block;
+}
+.iphone-x .side {
+  background: #1c1c1c;
+  border-radius: 54px;
+  box-shadow: inset 0 0 2px 2px dimgrey, inset 0 0 0 6px #e2e3e9, 0px -1px 13px 9px rgba(255,255,255,0.8) inset;
+  height: 594px;
+  padding: 15px 22px;
+  width: 300px;
+  z-index: 1;
+}
+.iphone-x .screen {
+  background: #FFF; 
+  background-position: center center;
+  background-size: cover;
+  border-radius: 33px;
+  position: relative;
+  height: 552px;
+  width: 258px;
+  margin-left: -1px;
+  margin-top: 6px;
+  z-index:198;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone-x .line::after, .iphone-x .line::before {
+  content: "";
+  position: absolute;
+  border: solid rgba(68, 68, 68, 0.25);
+  border-width: 0 6px;
+  height: 5px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.iphone-x .line::after {
+  top: 68px;
+}
+.iphone-x .line::before {
+  bottom: 68px;
+}
+.iphone-x .header {
+  background: #1c1c1c;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  height: 24px;
+  left: 50%;
+  margin-left: -82px;
+  position: absolute;
+  top: 15px;
+  width: 164px;
+  z-index: 199;
+}
+.iphone-x .sensor-1::after, .iphone-x .sensor-1::before {
+  content: "";
+  position: absolute;
+}
+.iphone-x .sensor-1::after {
+  background: #222;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  left: 1%;
+  margin-left: 10px;
+  top: 3px;
+}
+.iphone-x .sensor-1::before {
+  background: #222;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  left: 10%;
+  margin-left: 20px;
+  top: 3px;
+}
+.iphone-x .sensor-2::after, .iphone-x .sensor-2::before {
+  content: "";
+  position: absolute;
+}
+.iphone-x .sensor-2::before {
+  background: #333;
+  border-radius: 2.5px;
+  height: 5px;
+  width: 40px;
+  left: 50%;
+  margin-left: -20px;
+  top: 7px;
+}
+.iphone-x .sensor-3::after, .iphone-x .sensor-3::before {
+  content: "";
+  position: absolute;
+}
+.iphone-x .sensor-3::before {
+  background: #444;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  left: 50%;
+  margin-left: 35px;
+  top: 3px;
+  box-shadow:0px 0px 5px 2px navy inset
+}
+.iphone-x .sensor-3::after {
+  background: #222;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  left: 65%;
+  margin-left: 33px;
+}
+.iphone-x .volume-button {
+  background: #c8cacb;
+  left: -2px;
+  position: absolute;
+  top: 82px;
+  width: 3px;
+}
+.iphone-x .volume-button::after, .iphone-x .volume-button::before {
+  content: "";
+  position: absolute;
+  background: #c8cacb;
+  height: 40px;
+  left: 0;
+  width: 3px;
+}
+.iphone-x .volume-button::after {
+  top: 48px;
+}
+.iphone-x .volume-button::before {
+  top: 112px;
+}
+.iphone-x .power-button {
+  background: #c8cacb;
+  height: 60px;
+  right: -2px;
+  position: absolute;
+  top: 160px;
+  width: 3px;
+}
+/* .game{
+  margin: 0 auto;
+  margin-top: 50px;
+} */
+
+/* 
+.game h1 {
+  color: #fcdde8;
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow: -0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1, 0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca, 0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0, 0.035em 0.035em 0 #f9c0d3;
+}
+.animi{
+  margin-top: 30px;
+  margin-left: 5px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+} */
+.play{
+  position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,280%);
+
+}
+
+
+
+@media(max-width:950px){
+  .sidenav{
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    }
+  .iphone-x {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+}
+
+  @media(max-width:600px){
+    .neodiv ul{
+      display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap:nowrap;
+  width: 100%;
+  overflow: auto; 
+
+    }
+    :root {
+      --block-width: 319px;
+  --block-height: 350px;
+    }
+    .neodiv ul li {
+      padding-right: 0;
+     
+    }
+    .neodiv ul li:nth-child(5){
+      padding-right: 20px;
+    }
+    
+  
+  }
+  
+  .btnn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #f1c40f;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+ align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+   
+  }
+  .btnn:hover{
+    /* color: #fff; */
+    outline: 0;
+    color:rgb(45, 58, 81) ;
+    font-size: 1rem;
+    font-weight: 600;
+  
+  }
+  .btnn:focus{
+    outline: 0;
+    /* color: #fff; */
+    color:rgb(45, 58, 81) ;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .start {
+    /* #2ecc71 */
+    margin-top: 10px;
+    border-color: rgb(45, 58, 81) ;
+    color: rgb(45, 58, 81);
+    background-image: linear-gradient(45deg, rgb(45, 58, 81) 50%, transparent 50%);
+    background-color: white;
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+.start a{
+  text-decoration: none;
+  color: rgb(45, 58, 81);
+  width:150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+  .start:hover{
+    background-position: 0;
+    color: #fff;
+    z-index: 11;
+  }
+ .start a:hover{
+   color: #fff;
+ }
+
+  .start:focus{
+   background-color:  rgb(45, 58, 81);
+   color: #fff;
+   
+  }
+  .one {
+    /* #2ecc71 */
+    border-color:#fff ;
+    color:#fff;
+    background-image: linear-gradient(45deg,#fff 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .one:hover {
+    background-position: 0;
+   
+  }
+  .one:focus{
+   background-color: #fff;
+   
+  }
+
+  .two {
+    /* #2c3e50 */
+    border-color:#fff;
+    color:#fff;
+    background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .two:hover {
+    background-position: 0;
+  
+  }
+  .two:focus{
+    background-color:#fff;
+ 
+   }
+  .three {
+    /* #e74c3c */
+    border-color: #fff;
+    color: #fff;
+    background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .three:hover {
+    background-position: 0;
+  }
+  .three:focus{
+    background-color: #fff;
+    
+   }
+  .four {
+    /* #8e44ad */
+    border-color: #fff;
+    color: #fff;
+    background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .four:hover {
+    background-position: 0;
+  }
+  .four:focus{
+    background-color:#fff;
+    
+   }
+  .five {
+    /* #f1c40f */
+    border-color: #fff;
+    color: #fff;
+    background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+   
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .five:hover {
+    background-position: 0;
+  }
+  .five:focus{
+    background-color:#fff ;
+    
+   }
+ 

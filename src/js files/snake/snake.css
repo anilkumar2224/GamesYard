@@ -1,0 +1,54 @@
+.snakegame{
+    background-color: #282c34;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+   overflow: hidden; 
+}
+
+@media(max-height:400px){
+    .snakegame{
+        background-color: #282c34;
+        display: flex;
+        flex-direction: unset;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+      
+        color: white;
+    } 
+  
+    
+    .snake_score{
+      width: 100px;
+      height: 100px;
+      color: white; 
+
+    }
+   
+}
+
+.nipple{
+    display: none;
+  }
+  @media(max-width:450px){
+    .nipple{
+        display: flex;
+        height: 0px ;
+       width: 0px;
+        
+    }
+  }
+  @media(max-height:450px){
+    .nipple{
+        display: flex;
+        height: 0px;
+        width: 0px;
+    }
+   
+  }

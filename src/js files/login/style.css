@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap");
+body{
+    background-color: #fafafa; 
+    background-color: transparent;
+}
+
+.block{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: transparent;
+   
+}
+.auth_navbar{
+    width: 100%;
+    border-bottom: 1px solid rgba(219,219,219);
+    display: flex;
+    padding: 0.4rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.auth_logo{
+    width:max-content;
+
+    color: cornflowerblue;
+ 
+    margin: auto ;
+    font-size: 2.2rem;
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+
+    
+}
+
+
+.cardblock{
+    width: 100%;
+    height:650px;
+   
+    justify-content: center;
+ 
+ margin-top: 130px;
+ background-color: transparent;
+    
+}
+
+  /* .container {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     /* min-height: 100vh; */
+    
+ /* } */
+   .cube-container {
+    perspective: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  .container .cube-container .cube {
+    transition: transform 1s ease-in;
+    transform-style: preserve-3d;
+    width: 300px;
+    height: 400px;
+    margin: 5px 0;
+    background-color: transparent;
+  }
+
+  .leftrotate{
+    /* animation: horizontal-spin 2s ; */
+    transition: transform 1s ease;
+    transform: rotateY(-90deg);
+  }
+
+  .container .cube-container .cube .box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .container .cube-container .cube .box.front {
+   
+    transform: translateZ(150px);
+
+  }
+ 
+
+
+  .container .cube-container .cube .box.right {
+    background-color: #fafafa;
+    transform: rotateY(-270deg) translateX(150px);
+    transform-origin: top right;
+    /* height: 436px; */
+    display: none;
+    /* margin-top: 6px; */
+  
+  }
+ 
+  
+ 
+ 
+  @media(max-width:380px){
+    .container .cube-container .cube.cube1 {
+        width: 270px;
+    }
+    .container .cube-container .cube .box.right {
+        background: #ffffff;
+        transform: rotateY(-270deg) translateX(136px);
+        transform-origin: top right;
+        border: 1px solid rgba(219,219,219);
+        height: 396px;
+       margin: 1px;
+      }
+      .container .cube-container .cube .box.front {
+        background: #ffffff;
+        transform: translateZ(130px);
+        border: 1px solid rgba(219,219,219);
+      }
+  }
+  
+
+  .foot1{
+ 
+    width: 100%;
+   
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(0, 174, 255);
+    
+
+}
+  
