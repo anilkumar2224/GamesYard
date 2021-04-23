@@ -194,7 +194,7 @@ export class Reacteroids extends Component {
         astroidScore:this.state.currentScore,
         }
         const token=localStorage.getItem('jwttoken');
-        const response=axois.post(process.env.BACKEND_URL+'/updatescore', newScore,{
+        const response=axois.post(process.env.REACT_APP_BACKEND_URL+'/updatescore', newScore,{
             headers:{
               Authorization:token?`Bearer ${token}`:""
             }
