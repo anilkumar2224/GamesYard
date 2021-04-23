@@ -44,10 +44,10 @@ class App extends React.Component{
       progress: undefined,
       });
     }
-  async componentDidMount(){
+  componentDidMount(){
    
   const token=localStorage.getItem('jwttoken');
- await axios.get('https://agile-dawn-02443.herokuapp.com/getprofile',{
+ axios.get('https://agile-dawn-02443.herokuapp.com/getprofile',{
     headers:{
       Authorization:token?`Bearer ${token}`:""
 
@@ -120,5 +120,4 @@ ReactDOM.render(
 </Switch> 
 </Router>
 ,document.getElementById('root') );
-export default App;
 
