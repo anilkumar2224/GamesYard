@@ -31,7 +31,7 @@ class Leaderboard extends React.Component{
 		let b=0;
 
 		const token=localStorage.getItem('jwttoken');
-		await axios.get(process.env.REACT_APP_BACKEND_URL+'/getstopusers',{
+		await axios.get('https://agile-dawn-02443.herokuapp.com/getstopusers',{
 			headers:{
 				Authorization:token?`Bearer ${token}`:""
 
@@ -48,7 +48,7 @@ class Leaderboard extends React.Component{
 			this.notifyy();
 			
 		});
-	   await axios.get(process.env.REACT_APP_BACKEND_URL+'/getatopusers',{
+	   await axios.get('https://agile-dawn-02443.herokuapp.com/getatopusers',{
 			headers:{
 				Authorization:token?`Bearer ${token}`:""
 
