@@ -170,7 +170,7 @@ const email=document.getElementById('name').value;
     password:password,
     
   }
- axios.post(process.env.REACT_APP_BACKEND_URL+'/login',data).then(res=>{
+ axios.post('https://agile-dawn-02443.herokuapp.com/login',data).then(res=>{
   //console.log(res);
   localStorage.setItem('jwttoken',res.data.token);
   //console.log(res.data.token);
@@ -216,7 +216,7 @@ const email=document.getElementById('name').value;
     astroidScore:0,
     imgurl:''
   }
- axios.post(process.env.REACT_APP_BACKEND_URL+'/register',data).then(data=>{
+ axios.post('https://agile-dawn-02443.herokuapp.com/register',data).then(data=>{
     //console.log(data);
     if(data.data==='User Already Exists')
     this.notifyerror2();
