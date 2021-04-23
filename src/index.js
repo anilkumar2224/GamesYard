@@ -106,16 +106,16 @@ ReactDOM.render(
   <Switch> 
   <Route exact path='/' component={Auth} ></Route> 
   
-  <ProtectedRoute exact path='https://agile-dawn-02443.herokuapp.com/home' component={App} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/leaderboard' component={LB} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/profile' component={Profile} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/snake' component={Snake} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/pingpong' component={Pong} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/impossible' component={HardGame} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/tictoc' component={Tic} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/Reacteroids' component={Reacteroids} ></ProtectedRoute>
-  <ProtectedRoute exact path='https://flamboyant-goodall-60390e.netlify.app/search' component={Search} ></ProtectedRoute>
-  <Route  exact path='https://flamboyant-goodall-60390e.netlify.app/*' component={Notfound} ></Route> 
+  <ProtectedRoute exact path='/home' component={App} ></ProtectedRoute>
+  <ProtectedRoute exact path='/leaderboard' component={LB} ></ProtectedRoute>
+  <ProtectedRoute exact path='/profile' component={Profile} ></ProtectedRoute>
+  <ProtectedRoute exact path='/snake' component={Snake} ></ProtectedRoute>
+  <ProtectedRoute exact path='/pingpong' component={Pong} ></ProtectedRoute>
+  <ProtectedRoute exact path='/impossible' component={HardGame} ></ProtectedRoute>
+  <ProtectedRoute exact path='/tictoc' component={Tic} ></ProtectedRoute>
+  <ProtectedRoute exact path='/Reacteroids' component={Reacteroids} ></ProtectedRoute>
+  <ProtectedRoute exact path='/search' component={Search} ></ProtectedRoute>
+  <Route  exact path='/*' component={Notfound} ></Route> 
   
 </Switch> 
 </Router>
