@@ -399,7 +399,7 @@ wall.map((data)=>{
             snakeScore:this.state.snakeDot.length,
             }
             const token=localStorage.getItem('jwttoken');
-      const response=axois.post(process.env.REACT_APP_BACKEND_URL+'/updatescore', newScore,{
+      const response=axois.post('https://agile-dawn-02443.herokuapp.com/updatescore', newScore,{
           headers:{
               Authorization:token?`Bearer ${token}`:""
           }
