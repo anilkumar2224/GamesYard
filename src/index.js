@@ -45,7 +45,7 @@ class App extends React.Component{
       });
     }
   componentDidMount(){
-   
+    window.history.back();
   const token=localStorage.getItem('jwttoken');
  axios.get('https://agile-dawn-02443.herokuapp.com/getprofile',{
     headers:{
