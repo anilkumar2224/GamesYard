@@ -4,7 +4,7 @@ const Popup=(props)=> {
   var btn1,btn2;
   if(!props.mode){
     btn1 ="2-player";
-     btn2="Random";
+     btn2="play with AI";
   }else{
      btn1="Easy";
      btn2="Medium";
